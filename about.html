@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JJ's Portfolio</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/about.css">
+
+    <!-- Bootstrap CSS and JS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    
+    <!-- fontawesome icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css" integrity="sha384-BY+fdrpOd3gfeRvTSMT+VUZmA728cfF9Z2G42xpaRkUGu2i3DyzpTURDo5A6CaLK" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/16e3e0b20f.js" crossorigin="anonymous"></script>
+    
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@400;600&display=swap" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Playwrite+CO:wght@100..400&family=Satisfy&display=swap" rel="stylesheet">
+    <!-- js files -->
+    <script src="./js/index.js"></script>
+    <style>
+    body{
+        background-color: #EAE8DC;
+        
+   }
+   .poppins-regular{
+    font-weight: 400;
+    font-size: 18px;
+    font-style: normal;
+}
+.irish-regular{
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+}
+.inknut-semi-bold{
+    font-family: 'Inknut Antiqua';
+    font-weight: 600;
+    font-style: normal;
+}
+
+</style>
+
+</head>
+<body>
+  <div id="progressBarContainer">
+    <div id="progressBar"></div>
+  </div>
+    <div class="container">
+
+        <!-- Nav bar section with links to Home, About Me, Projects, and Contact -->
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <a class="navbar-brand poppins-semi-bold" href="#" style="font-size: 24px;">Jyothika Jalla</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link poppins-regular" href="./index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link poppins-regular" href="./about.html">More about me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link poppins-regular" href="#">Projects</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://github.com/jyothika28"><i class="fa-brands fa-github icon-style"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.linkedin.com/in/jyothikajalla/"><i class="fa-brands fa-linkedin icon-style"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="mailto:jalla.j@northeastern.edu"><i class="fa-solid fa-envelope icon-style"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <p class="poppins-regular">
+            Currently based in Boston, MA, I was born and brought up in Hyderabad, IN. I am a comp sci grad student at Northeastern who LOVES to manifest things.
+            Would you believe me if I said that I wanted to study abroad and pursue a career in software engineering
+            since I was 10 years old? (A little credit goes to my uncles, who were swe's themselves.)
+            Well, I knew I wanted to work with computers and technology, which eventually led me to the 
+            field of Computer Science in my bachelors. Experimenting with different technologies and developing applications is where
+            I found my passion. I am passionate about learning new technologies and working on projects that challenge me. 
+            I am a quick learner who focuses on things like crazyyy while being a team player. 
+            and got offers from these 6 companies.
+            </p>
+
+            <!-- Experiences and Eds-->
+            <div class="inknut-semi-bold" style="font-size: 40px;">Experiences & Education</div>
+            <br/>
+            <br/>
+            <ul class="timeline">
+                <li class="timeline-item" style="--accent-color:#B31928">
+                    <div class="date">May 2023 - Present</div>
+                    <div class="title"> Graduate Teaching Assistant- Fundamentals of Cloud Computing</div>
+                    <div class="descr">
+                        
+                            <i class="fa-solid fa-compact-disc"></i> Led AWS labs to boost students' practical skills in cloud services.
+                          <br/>  <i class="fa-solid fa-compact-disc"></i> Taught cloud computing concepts, guiding 180+ students to AWS certification success.
+                       
+                    </div>
+                </li>
+                <li class="timeline-item" style="--accent-color:#B31928">
+                    <div class="date">September 2023 - April 2024</div>
+                    <div class="title"> Graduate Teaching Assistant- Computer Science and its Applications</div>
+                    <div class="descr">  <i class="fa-solid fa-compact-disc"></i> Co-led programming labs and graded assignments for over 100 students.
+                        <br/>
+                        <i class="fa-solid fa-compact-disc"></i> Provided personalized guidance on Excel <b>lambda and built-in functions, visualizations, and pivot tables.</b></div>
+                </li>
+                <li class="timeline-item" style="--accent-color:#B31928">
+                    <div class="date">January 2023 - May 2025(Expected)</div>
+                    <div class="title">Master of Science, Computer Science<br/>
+                        Northeastern University, Boston</div>
+                    <div class="descr">Related Courses: Algorithms, Programming Design Paradigms, Web Development, Cloud Computing, Database Management Systems, Artificial Intelligence.</div>
+                </li>
+                <li class="timeline-item" style="--accent-color:#B31928">
+                    <div class="date">July 2018 - May 2022</div>
+                    <div class="title">Bachelor's in Information technology<br/> Anurag University</div>
+                    <div class="descr">Related Courses: Data Structures, Design and Analysis of Algorithms, Web technologies, Database Management Systems, Cloud Computing, Operating Systems, System design, Data Warehousing and Data Mining</div>
+                </li>
+                
+            </ul>
+            
+            <h2>A little off topic about me</h2>
+            Introduce my hobbies(crochet, painting(I can copy and paint them),trying to read, cooking)
+
+
+            3 circles of my life:
+            What I did in the past
+            What I am doing now
+            What I want to do in the future
+
+
+
+            How is crochet related to coding?
+            Both are about creating something from scratch.
+            Both require patience and attention to detail.
+            Both can be relaxing and meditative.
+            Both can be challenging and rewarding.
+            Both can be shared with others.
+            Both can be used to express creativity.
+            Both can be learned and improved over time.
+            Both can be used to solve problems and create solutions.
+            Both can be used to make something useful or beautiful.
+            Both can be used to learn new skills and techniques.
+            Both can be used to connect with others and build community.
+            Both can be used to inspire and motivate others.
+            Both can be used to have fun and enjoy the process.
+            Both can be used to make a difference and leave a legacy.
+            Both can be used to explore new ideas and possibilities.
+            <p></p>
+            <!-- <img src="./images/companies/Accenture.png" alt="Image 1">
+            <img src="./images/companies/cognizant.png" alt="Image 2">
+            <img src="./images/companies/tcs.png" alt="Image 3">
+            <img src="./images/companies/capgemini.png" alt="Image 4">
+            <img src="./images/companies/wipro.png" alt="Image 5">
+            <img src="./images/companies/virtusa.png" alt="Image 6"> -->
+            <!-- Companies section -->
+            <p>Experiences and Education</p>
+            <div class="companies">
+                <div class="accenture">
+                    <img src="./images/companies/Accenture.png" class="img-hover" alt="Image 1">
+                </div>
+                <div class="cognizant">
+                    <img src="./images/companies/cognizant.png" class="img-hover-2" alt="Image 2">
+                </div>
+                <div class="tcs">
+                    <img src="./images/companies/tcs.png" class="img-hover" alt="Image 3">
+                </div>
+                <div class="virtusa">
+                    <img src="./images/companies/virtusa.png" class="img-hover-2" alt="Image 6">
+                </div>
+                <div class="wipro">
+                    <img src="./images/companies/wipro.png" class="img-hover" alt="Image 5">
+                </div>
+                <div class="capgemini">
+                    <img src="./images/companies/capgemini-2.png" class="img-hover-2" alt="Image 4">
+                </div>
+                  
+            </div>
+
+        
+
+          
+      
+        
+        <!-- footer section -->
+        <br/>
+            <div class="footer">
+              <div class="container">
+
+              
+                <div class="footer-content">
+                    <div class="inknut-semi-bold" style="font-size: 40px;">Let’s get in touch</div>
+                    <br/>
+                    <div class="inknut-semi-bold" style="font-size: 20px;">Reach out if you believe I'd be a great fit for your company, for coffee chats, or to exchange our favorite sitcoms :)</div>
+                </div>
+                <br/>
+                <div class="footer-icons">
+                    <a href="https://www.linkedin.com/in/jyothikajalla/"><i class="fa-brands fa-linkedin icon-style"></i></a>
+                    
+                    <a href="mailto:jalla.j@northeastern.edu">
+                        <i class="fa-solid fa-envelope icon-style"></i>
+                    </a>
+                </div>
+            </div>
+          </div>
+   
+    <br/>
+    <div class="centre-section">
+      <div class="irish-grover" style="font-size: 18px;">
+        You've reached the end of the Page. 
+        Out of all the places on the internet, you chose to be here. Thank you for stopping by! <i class="fa-solid fa-face-laugh-squint fa-beat"></i>
+        <!-- <i class="fa-solid fa-face-laugh-wink fa-beat"></i> -->
+        <!-- <i class="fa-solid fa-face-smile-wink fa-beat"></i> -->
+         <!-- <i class="fa-solid fa-heart fa-beat"></i> -->
+    
+      </div>
+    </div>
+    <br/>
+    <div class="container">
+        <p>
+            <strike>Home/Introduction<br>
+            Brief introduction of yourself<br>
+            Professional photo<br>
+            Contact information (email, LinkedIn, GitHub, etc.)<br>
+            <br></strike>
+            About Me<br>
+            Detailed background information<br>
+            Education<br>
+            Relevant skills and technologies<br>
+            Personal interests and hobbies<br>
+            <br>
+            Projects<br>
+            Showcase your key projects with descriptions<br>
+            Include technologies used, your role, and outcomes<br>
+            Links to live demos or GitHub repositories<br>
+            <br>
+            Experience<br>
+            Professional work experience<br>
+            Internships, teaching assistant roles, and other relevant positions<br>
+            Descriptions of your responsibilities and achievements<br>
+            <br>
+            Skills<br>
+            List of programming languages, frameworks, and tools<br>
+            Proficiency levels (e.g., beginner, intermediate, advanced)<br>
+            <br>
+            Education<br>
+            Academic background with degrees, institutions, and graduation dates<br>
+            Notable courses and relevant projects<br>
+            <br>
+            Certifications<br>
+            Any relevant certifications (e.g., AWS certification, merit scholarships)<br>
+            <br>
+            Blog/Articles<br>
+            Optional section for sharing articles, tutorials, or thoughts on topics related to your field<br>
+            <br>
+            <strike>
+            Contact<br>
+            Contact form for visitors to reach out to you<br>
+            Additional contact information<br>
+        </strike>
+            <br>
+            <strike>
+            Resume<br>
+            Downloadable PDF version of your resume<br>
+        </strike>
+            <br>
+            Testimonials/Recommendations<br>
+            Optional section with testimonials from colleagues, professors, or clients<br>
+            <br>
+            Portfolio Gallery<br>
+            Visual showcase of your projects, designs, or other work<br>
+            <br>
+            Achievements and Awards<br>
+            List of any awards, recognitions, or scholarships you have received<br>
+        </p>
+    </div>
+</body>
+</html>

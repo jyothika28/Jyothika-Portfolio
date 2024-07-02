@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JJ's Portfolio</title>
+    <link rel="stylesheet" href="./css/index.css">
+
+    <!-- Bootstrap CSS and JS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    
+    <!-- fontawesome icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css" integrity="sha384-BY+fdrpOd3gfeRvTSMT+VUZmA728cfF9Z2G42xpaRkUGu2i3DyzpTURDo5A6CaLK" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/16e3e0b20f.js" crossorigin="anonymous"></script>
+    
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@400;600&display=swap" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Playwrite+CO:wght@100..400&family=Satisfy&display=swap" rel="stylesheet">
+    <!-- js files -->
+    <script src="./js/index.js"></script>
+    <style>
+    body{
+        background-color: #EAE8DC;
+        
+   }
+   .poppins-regular{
+    font-weight: 400;
+    font-size: 18px;
+    font-style: normal;
+}
+.irish-regular{
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+}
+.inknut-semi-bold{
+    font-family: 'Inknut Antiqua';
+    font-weight: 600;
+    font-style: normal;
+}
+
+</style>
+
+</head>
+<body>
+  <div id="progressBarContainer">
+    <div id="progressBar"></div>
+  </div>
+    <div class="container">
+
+        <!-- Nav bar section with links to Home, About Me, Projects, and Contact -->
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <a class="navbar-brand poppins-semi-bold" href="#" style="font-size: 24px;">Jyothika Jalla</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link poppins-regular" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link poppins-regular" href="./about.html">More about me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link poppins-regular" href="#">Projects</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://github.com/jyothika28"><i class="fa-brands fa-github icon-style"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.linkedin.com/in/jyothikajalla/"><i class="fa-brands fa-linkedin icon-style"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="mailto:jalla.j@northeastern.edu"><i class="fa-solid fa-envelope icon-style"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+
+        <!-- Hero section with a brief introduction and a call to action button to download resume -->
+        <div class="hero-section">
+            <div class="card mb-3" style="max-width: 1100px; background-color:#EAE8DC;border:none">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    
+                        <img src="images/profile picture styling.png" style="width: 350px;height:360px;">
+                    
+                  </div>
+                  <div class="col-md-1">
+
+                  </div>
+                  <div class="col-md-7">
+                    <div class="card-body">
+                      <!-- <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+                      <span class="poppins-regular" style="font-size: 40px;">Nice to Meet You!</span><br/>
+                      <span class="poppins-regular" style="font-size: 40px;">I'm </span> <span class="irish-grover"style="font-size: 50px;color:#E85A50;">Jyothika</span><br/>
+                      <span class="poppins-regular" style="font-size: 40px;">and I Love Building</span><br/>
+                      <span class="irish-grover"style="font-size: 50px;color:#E85A50;">Applications</span>
+                      <div class="irish-grover sup" style="font-size: 18px;">(Be it front-end or back-end)
+                         <br/> or both.</div>
+                      <div class="resume-button">
+                          
+                          <button class="resume poppins-bold" onclick="location.href='./files/Jyothika_Jalla_.pdf'">Resum<span>&#233;</span></button>
+                         
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+
+                      <!-- <div class="message-box">
+
+                   
+                    <div speech-bubble pbottom aleft style="--bbColor:#E85A50">
+                        <div class="title">You must be wondering, she claims that she has experience working with web applications as front-end and back-end. What sets her apart??</div>
+                       
+                      </div>
+                      </div> -->
+    
+             
+               
+          <!-- Sets me apart section -->  
+        <div class="centre-section">
+
+       
+        <div class="card text-center apart-box" style="max-width: 900px; background-color:#EAE8DC;border:none; margin-top:100px;">
+            
+            <div class="card-body">
+              <h5 class="card-title">
+                <div class="responsive-box poppins-regular" style="font-size:25px">
+                    Well, that is true, but what sets me apart is my knack for blending <span class="design">technical expertise</span> with a strong <span class="satisfy-regular">sense of design</span>. 
+                    Whether I’m crafting user-friendly interfaces or optimizing b<i class="fa-solid fa-database" style="font-size:18px;"></i>ckend processes, I ensure that <u>form</u> meets <span class="circle-text">function.</span>
+                    My colleagues and professors often describe me as a proactive pr<i class="fa-solid fa-bullseye" style="font-size:18px;"></i>blem-s<i class="fa-solid fa-puzzle-piece fa-rotate-270" style="font-size:20px;"></i>lver who brings a creative perspective and <i class="fa-solid fa-binoculars" style="font-size:24px;"></i>eticulous nature to tech challenges.
+                </div>
+              </h5>
+              
+            </div>
+           
+          </div>
+        </div>
+        
+        
+
+        <!-- Projects section -->
+         <div class="centre-section">
+
+        
+         <div class="projects">
+            <div class="projects-title">
+                <div class="inknut-semi-bold" style="font-size: 40px;">Featured Projects</div>
+            </div>
+            <div class="project-cards">
+            <div class="row">
+                <div class="col">
+                    <!-- festifind -->
+                    <div class="card" style="width: 23rem;border-radius:25px;">
+                        <div id="carouselExampleIndicators" class="carousel slide" >
+                            <div class="carousel-indicators" >
+                              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner" >
+                              <div class="carousel-item active">
+                                <img src="./images/academic projects/festifind/index.png" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="./images/academic projects/festifind/events.png" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="./images/academic projects/festifind/event_deets.png" class="d-block w-100" alt="...">
+                              </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button"  style="color:black" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button>
+                          </div>
+                        <div class="card-body ">
+                          <h5 class="card-title poppins-bold" style="font-size: 18px;">FestiFIND – Dynamic Event Ticket Booking Platform</h5>
+                          <p class="card-text poppins-regular" style="font-size: 16px;">FestiFIND is an interactive platform for booking, creating, and managing events.</p>
+                          <div class="wrapper">
+                            <a href="https://github.com/jyothika28/ticket-react-web-app.git" class="poppins-semi-bold"><span>See more...</span></a>
+                          </div>
+                          <!-- <a href="" class="btn" style="font-family:'poppins';background-color:#E85A50">View Project</a> -->
+                        </div>
+                  </div>
+                </div>
+                <div class="col">
+
+                </div>
+                <!-- RDBMS -->
+                <div class="col">    
+                    <div class="card" style="width: 23rem; border-radius: 25px;">
+                        
+                    <div id="carouselExampleIndicators1" class="carousel slide">
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active" >
+                            <img src="./images/academic projects/rdbms/index.png" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="./images/academic projects/rdbms/cuisines.png" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="./images/academic projects/rdbms/cart.png" class="d-block w-100" alt="...">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button"  style="color:black" data-bs-target="#carouselExampleIndicators1" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                    <div class="card-body">
+                      <h5 class="card-title poppins-bold" style="font-size: 18px;">Savor Delights Diner – A Restaurant Management System </h5>
+                      <p class="card-text poppins-regular" style="font-size: 16px;">A User-friendly platform for order processing, reservations, and management.</p>
+                      <div class="wrapper">
+                        <a href="https://github.com/jyothika28/Restaurant.git" class="poppins-semi-bold"><span>See more...</span></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+           
+            <!-- Second row -->
+            <!-- 2.1 -->
+             <br/>
+            <div class="row ">
+                
+                <div class="col">    
+                    <div class="card " style="width: 23rem;border-radius:25px;">
+                        
+                      <div id="carouselExampleIndicators2" class="carousel slide">
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active" >
+                            <img src="./images/academic projects/kanbas/Dashboard.png" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="./images/academic projects/kanbas/Assignments.png" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="./images/academic projects/kanbas/Student_grades_page.png" class="d-block w-100" alt="...">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button"  style="color:black" data-bs-target="#carouselExampleIndicators2" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                    <div class="card-body">
+                      <h5 class="card-title poppins-bold" style="font-size: 18px;">Kanbas – A Canvas LMS(Learning Management System) Clone </h5>
+                      <p class="card-text poppins-regular" style="font-size: 16px;">A Modern, responsive platform for managing courses, assignments, and grades.</p>
+                      <div class="wrapper">
+                        <a href="https://github.com/jyothika28/Restaurant.git" class="poppins-semi-bold"><span>See more...</span></a>
+                      </div>
+                    </div>
+                  
+                </div>
+              </div>
+                <div class="col">
+
+                </div>
+                
+                    
+                <div class="col">    
+                    <div class="card" style="width: 23rem;border-radius:25px;">
+                        
+                    <div id="carouselExampleIndicators3" class="carousel slide">
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                        
+                        </div>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active" >
+                            <img src="./images/academic projects/dashboard/index.png" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="./images/academic projects/dashboard/admissions.png" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="./images/academic projects/dashboard/research.png" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="./images/academic projects/dashboard/students.png" class="d-block w-100" alt="...">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button"  style="color:black" data-bs-target="#carouselExampleIndicators3" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                  
+                    <div class="card-body">
+                      <h5 class="card-title poppins-bold" style="font-size: 18px;">AU Dashboard</h5>
+                      <p class="card-text poppins-regular" style="font-size: 16px;">Transforms Excel data into dynamic visualizations</p>
+                      <div class="wrapper">
+                        <a href="" class="poppins-semi-bold"><span>See more...</span></a>
+                      </div>
+                    </div>
+                  </div>
+               
+                </div>
+            </div>
+            <!-- Third row -->
+            <br/>
+            <div class="row">
+              <div class="col">
+                <div class="card " style="width: 23rem;border-radius:25px;">
+                        
+                  <div id="carouselExampleIndicators4" class="carousel slide">
+                      <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                      </div>
+                      <div class="carousel-inner">
+                        <div class="carousel-item active" >
+                          <img src="./images/academic projects/kanbas/Dashboard.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="./images/academic projects/kanbas/Assignments.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="./images/academic projects/kanbas/Student_grades_page.png" class="d-block w-100" alt="...">
+                        </div>
+                      </div>
+                      <button class="carousel-control-prev" type="button"  style="color:black" data-bs-target="#carouselExampleIndicators4" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                      </button>
+                    </div>
+                  <div class="card-body">
+                    <h5 class="card-title poppins-bold" style="font-size: 18px;">Anurag Assessment Portal</h5>
+                    <p class="card-text poppins-regular" style="font-size: 16px;">A Dynamic PHP-based platform for secure, efficient online exams.</p>
+                    <div class="wrapper">
+                      <a href="" class="poppins-semi-bold"><span>See more...</span></a>
+                    </div>
+                  </div>
+                
+              </div>
+              </div>
+            </div>
+        </div>
+         </div>
+         </div>
+
+         
+        </div>  
+        <!-- footer section -->
+        <br/>
+            <div class="footer">
+              <div class="container">
+
+              
+                <div class="footer-content">
+                    <div class="inknut-semi-bold" style="font-size: 40px;">Let’s get in touch</div>
+                    <br/>
+                    <div class="inknut-semi-bold" style="font-size: 20px;">Reach out if you believe I'd be a great fit for your company, for coffee chats, or to exchange our favorite sitcoms :)</div>
+                </div>
+                <br/>
+                <div class="footer-icons">
+                    <a href="https://www.linkedin.com/in/jyothikajalla/"><i class="fa-brands fa-linkedin icon-style" style="color: white;"></i></a>&emsp;
+                    
+                    <a href="mailto:jalla.j@northeastern.edu">
+                        <i class="fa-solid fa-envelope icon-style" style="color: white;"></i>
+                    </a>
+                </div>
+            </div>
+          </div>
+   
+
+    <div class="centre-section">
+      <div class="irish-grover" style="font-size: 18px;margin:1%">
+
+        <div class="end-note">Print("You've reached the end of the Page.</div> 
+        <div class="end-note">
+  <span> Out of all the places on the internet, you chose to be here. Thank you for stopping by! <i class="fa-solid fa-face-laugh-squint fa-beat"></i> ")
+  </span></div>
+</div>
+
+       <!-- <i class="fa-solid fa-face-laugh-wink fa-beat"></i> -->
+        <!-- <i class="fa-solid fa-face-smile-wink fa-beat"></i> -->
+         <!-- <i class="fa-solid fa-heart fa-beat"></i> -->
+    
+      </div>
+    </div>
+   
+    
+</body>
+</html>
